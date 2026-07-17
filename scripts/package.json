@@ -1,0 +1,13 @@
+{
+  "name": "discord-server-setup",
+  "version": "1.0.0",
+  "description": "สคริปต์สร้างโครงสร้างห้อง Discord อัตโนมัติสำหรับเซิร์ฟเวอร์โรงเรียน/วิทยาลัย",
+  "main": "setup-server.js",
+  "scripts": {
+    "start": "node setup-server.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}

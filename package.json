@@ -1,0 +1,17 @@
+{
+  "name": "discord-server-setup",
+  "version": "1.0.0",
+  "description": "สคริปต์สร้างโครงสร้างห้อง Discord อัตโนมัติสำหรับวิทยาลัยเทคโนโลยีไฮเทค หนองไผ่ (HTN)",
+  "main": "setup-server.js",
+  "scripts": {
+    "start": "node setup-server.js",
+    "setup-roles": "node setup-roles.js",
+    "bot": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "xlsx": "^0.18.5"
+  }
+}
